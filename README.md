@@ -3,7 +3,7 @@
 A fully responsive, 4-page restaurant website built with pure HTML, CSS and vanilla JavaScript. No frameworks, no libraries — just clean, well-structured front-end code.
 
 ## 🔗 Live Demo
-[View live on GitHub Pages](https://yourusername.github.io/spicegarden)
+[View live on GitHub Pages](https://Jaikiran1212.github.io/spicegarden)
 
 ---
 
