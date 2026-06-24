@@ -110,7 +110,7 @@ spicegarden/
 
 Built by [Your Name] — CSE student & freelance web developer.
 
-📧 jaikiranjp@email.com  
+📧 jaikiranjp@gmail.com  
 🔗 [Your Portfolio](https://yourusername.github.io)
 
 ---
