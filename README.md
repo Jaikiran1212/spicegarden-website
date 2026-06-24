@@ -108,7 +108,7 @@ spicegarden/
 
 ## 👤 Author
 
-Built by [Your Name] — CSE student & freelance web developer.
+Built by Jaikiran J — CSE student & freelance web developer.
 
 📧 jaikiranjp@gmail.com  
 🔗 [Your Portfolio](https://yourusername.github.io)
