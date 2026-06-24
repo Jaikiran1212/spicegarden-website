@@ -55,7 +55,7 @@ spicegarden/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/spicegarden.git
+   git clone git clone https://github.com/Jaikiran1212/spicegarden-website.git
    ```
 2. Open `index.html` in your browser — no build step needed.
 
