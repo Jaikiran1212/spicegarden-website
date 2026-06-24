@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — SpiceGarden Coimbatore</title>
+  <meta name="description" content="Explore our full Chettinad menu — starters, mains, breads, desserts and drinks. All made fresh daily." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Spice<span>Garden</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="location.href='contact.html'">Reserve a table</button>
+    <button class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <p class="section-eyebrow">Our menu</p>
+    <h1 class="section-title">Crafted with <em>love,</em><br>served with soul.</h1>
+    <p>All dishes prepared fresh daily using ingredients sourced from local farms in the Nilgiris and Coimbatore.</p>
+  </div>
+
+  <!-- CATEGORY TABS -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" onclick="switchCat('starters',this)">Starters</button>
+    <button class="cat-tab" onclick="switchCat('mains',this)">Mains</button>
+    <button class="cat-tab" onclick="switchCat('breads',this)">Breads</button>
+    <button class="cat-tab" onclick="switchCat('desserts',this)">Desserts</button>
+    <button class="cat-tab" onclick="switchCat('drinks',this)">Drinks</button>
+  </div>
+
+  <div class="menu-body">
+
+    <!-- STARTERS -->
+    <div class="category-section active" id="cat-starters">
+      <div class="cat-header">
+        <span class="cat-name">Starters</span>
+        <span class="cat-desc">Small plates to begin your journey</span>
+      </div>
+      <div class="dish-grid">
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXHd_-xlALofEON482H7dHKGqoZo2zRuwnPG9evoiV-Q&s=10" alt="Mutton Kola Urundai" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Mutton Kola Urundai</span>
+            <span class="dish-price">&#8377;220</span>
+          </div>
+          <p class="dish-desc">Minced mutton spiced with fennel, kalpasi and stone flower, deep-fried to a crisp golden shell.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYx9ZSiISRXypTJw5IxSZGj1TkOInd3se2FSZ3R_tMhcvaZ1VMbE58oQ1&s=10" alt="Vazhaipoo Vadai" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Vazhaipoo Vadai</span>
+            <span class="dish-price">&#8377;140</span>
+          </div>
+          <p class="dish-desc">Crispy banana-blossom fritters with chana dal, curry leaves and a green chutney dip.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7F5o9S-_7mKhRtd6APvu0mQnh30OEYrH7a1mILnc62g&s=10" alt="Prawn Pepper Fry" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Prawn Pepper Fry</span>
+            <span class="dish-price">&#8377;320</span>
+          </div>
+          <p class="dish-desc">Tiger prawns tossed in cracked pepper, crushed garlic and a squeeze of Kodaikanal lime.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+            <span class="tag tag-new">New</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxItqxcfZ4OcxomNvetxJGRRgFtpmlGPpfjyKwRTetZw&s=10" alt="Sundakkai Rasam Shot" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Sundakkai Rasam Shot</span>
+            <span class="dish-price">&#8377;80</span>
+          </div>
+          <p class="dish-desc">A warm shot of turkey-berry rasam — a traditional palate opener before a Chettinad meal.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://i0.wp.com/gomathirecipes.com/wp-content/uploads/2022/06/3048.jpg?fit=800%2C534&ssl=1" alt="Chicken 65" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Chicken 65</span>
+            <span class="dish-price">&#8377;240</span>
+          </div>
+          <p class="dish-desc">Bite-sized chicken pieces marinated in yoghurt, red chilli and ginger-garlic, flash-fried and tossed with curry leaves.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2Ghb2xJoTUZ2mqsmTJlBzSsjPi31RsnkUtzN3oiPFQ&s=10" alt="Paneer Tikka" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Paneer Tikka</span>
+            <span class="dish-price">&#8377;200</span>
+          </div>
+          <p class="dish-desc">Cubes of fresh cottage cheese marinated in tandoori spices, grilled over the open fire with peppers and onion.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- MAINS -->
+    <div class="category-section" id="cat-mains">
+      <div class="cat-header">
+        <span class="cat-name">Mains</span>
+        <span class="cat-desc">Slow-cooked Chettinad centrepieces</span>
+      </div>
+      <div class="dish-grid">
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://www.whiskaffair.com/wp-content/uploads/2020/09/Chicken-Chettinad-Curry-2-3.jpg" alt="Chettinad Chicken Curry" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Chettinad Chicken Curry</span>
+            <span class="dish-price">&#8377;380</span>
+          </div>
+          <p class="dish-desc">Bone-in country chicken simmered four hours in a whole-spice gravy with kalpasi and marathi mokku.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvxfrPZ6RLgyCTtxq15KUz6oBcr5kqLi6L0ty_Xzjew&s=10" alt="Kavuni Arisi Biryani" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Kavuni Arisi Biryani</span>
+            <span class="dish-price">&#8377;340</span>
+          </div>
+          <p class="dish-desc">Black rice biryani layered with caramelised onions and slow-cooked mutton, sealed in a clay pot.</p>
+          <div class="dish-tags">
+            <span class="tag tag-new">New</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHMmvO_yt3fAuYwwwA3lcdQnzIc4WlqrtU7L771nCovYPKB9UchGllfd8S&s=10" alt="Vellai Kuruma" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Vellai Kuruma</span>
+            <span class="dish-price">&#8377;260</span>
+          </div>
+          <p class="dish-desc">A mild white coconut curry with mixed vegetables — the gentle side of Chettinad cooking.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh4iX-I5YPg-_Ol78qC4NQn4xFRQD_bZusH_3qtB2IVw&s=10" alt="Fish Varuval Platter" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Fish Varuval Platter</span>
+            <span class="dish-price">&#8377;420</span>
+          </div>
+          <p class="dish-desc">Pan-seared seer fish marinated in red chilli, turmeric and raw mango, served with steamed rice.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSZ6rE683AcMjme4MSCkypTApZTYNL7hE-BC1wcL9-4Q9TZDkjIAWEB4&s=10" alt="Mutton Chukka" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Mutton Chukka</span>
+            <span class="dish-price">&#8377;440</span>
+          </div>
+          <p class="dish-desc">Dry-roasted mutton with shallots, coconut slivers and cracked pepper — a classic Chettinad dry preparation.</p>
+          <div class="dish-tags">
+            <span class="tag tag-spicy">Spicy</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCxqU4gbmgBzeldMJFn0qpi3tuAZdqHKr6HxR9JyWvw&s=10" alt="Mushroom Masala" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Mushroom Masala</span>
+            <span class="dish-price">&#8377;240</span>
+          </div>
+          <p class="dish-desc">Button mushrooms in a rich tomato-onion base with whole spices. Best eaten with parotta.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BREADS -->
+    <div class="category-section" id="cat-breads">
+      <div class="cat-header">
+        <span class="cat-name">Breads</span>
+        <span class="cat-desc">From our open-fire clay oven</span>
+      </div>
+      <div class="dish-grid">
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://i0.wp.com/gomathirecipes.com/wp-content/uploads/2021/09/parotta.jpg?fit=1077%2C720&ssl=1" alt="Parotta" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Parotta</span>
+            <span class="dish-price">&#8377;40</span>
+          </div>
+          <p class="dish-desc">Flaky, layered wheat parotta made fresh to order — best paired with any Chettinad curry.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw-cWR_4z3I3g_A75ovv97ARVQWP5Z1a7nSkgKzz1pA2G7SeGo2vXHQY&s=10" alt="Veechu Parotta" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Veechu Parotta</span>
+            <span class="dish-price">&#8377;55</span>
+          </div>
+          <p class="dish-desc">The thinner, crispier cousin of parotta — swung and tossed by hand over the flame.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://i0.wp.com/mariasmenu.com/wp-content/uploads/Idiyappam-recipe.jpg" alt="Idiyappam" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Idiyappam</span>
+            <span class="dish-price">&#8377;60</span>
+          </div>
+          <p class="dish-desc">Steamed rice noodle discs — light, delicate, and perfect with coconut milk or kuruma.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvEinfoNzGhsELJ7QJM_85fZiPHjlZIhLnVgcD4j3q_bhLo6mN7jyZVhU&s=10" alt="Appam" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Appam</span>
+            <span class="dish-price">&#8377;50</span>
+          </div>
+          <p class="dish-desc">Lacy fermented rice hoppers with a soft centre — served warm straight off the iron pan.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="category-section" id="cat-desserts">
+      <div class="cat-header">
+        <span class="cat-name">Desserts</span>
+        <span class="cat-desc">Sweet endings, always homemade</span>
+      </div>
+      <div class="dish-grid">
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://www.cuisineindiasociety.in/recipes/kavuni-arisi-halwa/" alt="Kavuni Arisi Halwa" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Kavuni Arisi Halwa</span>
+            <span class="dish-price">&#8377;120</span>
+          </div>
+          <p class="dish-desc">Black rice slow-cooked in jaggery and coconut milk, topped with cashew and ghee.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+            <span class="tag tag-chef">Chef's pick</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_waEioA7t7Qho4ZHVe6wWrKNEqcWvdkzlYOzm5KuY7Z2o54E0lpRqpBU&s=10" alt="Paal Paniyaram" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Paal Paniyaram</span>
+            <span class="dish-price">&#8377;90</span>
+          </div>
+          <p class="dish-desc">Soft rice-flour dumplings soaked in sweetened coconut milk with cardamom and saffron.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://www.whiskaffair.com/wp-content/uploads/2020/11/Semiya-Payasam-2-3.jpg" alt="Semiya Payasam" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Semiya Payasam</span>
+            <span class="dish-price">&#8377;80</span>
+          </div>
+          <p class="dish-desc">Vermicelli kheer with full-cream milk, cashew, raisin and a hint of cardamom. A grandmother's recipe.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="category-section" id="cat-drinks">
+      <div class="cat-header">
+        <span class="cat-name">Drinks</span>
+        <span class="cat-desc">Cooling, herbal and freshly made</span>
+      </div>
+      <div class="dish-grid">
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcb4rW6QKQDelHgm5pzLQsrDcQay0VUuuCv3uXL5J8_zKqObk8tKZFM_I&s=10" alt="Nannari Sherbet" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Nannari Sherbet</span>
+            <span class="dish-price">&#8377;70</span>
+          </div>
+          <p class="dish-desc">Chilled Indian sarsaparilla syrup with lemon and rose water — a classic summer cooler.</p>
+          <div class="dish-tags">
+            <span class="tag tag-veg">Veg</span>
+            <span class="tag tag-new">New</span>
+          </div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbe1GZl0-cp3VQAUW2u0Oj2pRHP8eyBDMVTez1SG7KaGEKeGE3tFUn1xg&s=10" alt="Filter Coffee" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Filter Coffee</span>
+            <span class="dish-price">&#8377;50</span>
+          </div>
+          <p class="dish-desc">Degree coffee brewed with Coorg blend, served in the traditional dabara-tumbler set.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISrs4JW_NxtkUinSZE0fWP5ww7WjDVCxbE4AwKZGPXZEvla0_3poKC9c&s=10" alt="Kokum Cooler" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Kokum Cooler</span>
+            <span class="dish-price">&#8377;80</span>
+          </div>
+          <p class="dish-desc">Tangy kokum with black salt and mint — refreshing and great for digestion after a spicy meal.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+        <div class="dish-card">
+          <img class="dish-img" src="https://www.awesomecuisine.com/wp-content/uploads/2008/11/masala-buttermilk.jpg" alt="Buttermilk" loading="lazy" onerror="this.style.display='none'" />
+          <div class="dish-top">
+            <span class="dish-name">Buttermilk</span>
+            <span class="dish-price">&#8377;40</span>
+          </div>
+          <p class="dish-desc">Churned fresh daily with curry leaves, ginger and green chilli. The perfect cool-down after a hot curry.</p>
+          <div class="dish-tags"><span class="tag tag-veg">Veg</span></div>
+          <div class="dish-add" title="Add to order">+</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <p class="menu-note">
+      All prices include taxes. Dishes marked <strong>Spicy</strong> are prepared at medium-high heat — ask your server to adjust.
+      We source eggs, dairy and meat from certified farms. Please inform us of any allergies before ordering.
+    </p>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">Spice<span>Garden</span></div>
+        <p>Authentic Chettinad cuisine in the heart of Coimbatore. Slow food, warm hospitality, and a table always waiting.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit us</h4>
+        <ul>
+          <li><a href="#">12 RS Puram, Coimbatore</a></li>
+          <li><a href="tel:+914221234567">+91 422 123 4567</a></li>
+          <li><a href="mailto:hello@spicegarden.in">hello@spicegarden.in</a></li>
+          <li><a href="#">Mon–Sun: 12pm – 10pm</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 SpiceGarden. All rights reserved.</span>
+      <span>Built with HTML &amp; CSS</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
